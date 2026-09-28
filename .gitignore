@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Runtime storage
+storage/customers/*
+storage/suppliers/*
+storage/generated/*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
